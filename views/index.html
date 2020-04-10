@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width ,initial-scale-1.0">
 	<meta name="keywords" content="game,informative,High-Score rankings">
 	<title>QuizUp</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <style>
 	title{color:rgb(32,43,45);font-family:calibri;}
@@ -20,9 +21,20 @@
 	        color:rgb(245,76,145);}
 	        section,article{box-sizing: border-box;}
 	        form{box-sizing: border-box;
-	        	padding:20px;}
+	        	padding:15px;
+	        	border-radius:18px;}
 	        	button{text-align:center;
 	        			backgroud-color:rgba(0,201,2,0.5);
+	        		}
+	        		a{
+	        			text-decoration:none;
+	        			color:white;
+	        		}
+	        		a:hover{
+	        			color:red;
+	        		}
+	        		a:active{
+	        			color:blue;
 	        		}
 	        			        			
 </style>
@@ -39,13 +51,13 @@
      	</article> 
      	<article>
      		
-      <form action="process.php" method="POST" style="text-align:center" >
+      <form action="process.php" method="POST" style="text-align:center;border-radius:2px"  class="myform">
       	<br>
       	<br>
       	<br>
       	<div>
-	<label style="color:rgb(245,76,145)"></label>
-	<input type="text" name="Username" placeholder="Username" style="background-color:black;color:beige; " required>
+	<label style="color:rgb(245,76,145);border-radius:21px"></label>
+	<input type="text" name="Username" placeholder="Username" style="background-color:black;color:beige; " required  style="border-radius:2px">
 </div>
 <br>
 <br>
